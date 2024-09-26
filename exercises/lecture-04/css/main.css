@@ -1,0 +1,74 @@
+@charset "UTF-8";
+
+@import url("base.css");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css');
+/* в пошуку не видає шрифт awesome за посиланням https://fonts.google.com/?query=awesome */
+
+
+body {
+    /*font-size: 40%;*/
+}
+
+h1 {
+    /* font-size: 140%; */
+    color: gray;
+    font-size: 1.45rem;
+    font-weight: 700;
+}
+
+h2 {
+    color: gray;
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+.h2 {
+    color: red;
+}
+
+h3 {
+    color: gray;
+    font-weight: 700;
+}
+
+.heading {
+    color: green;
+}
+
+main#main {
+    color: #e60202;
+}
+
+div {
+    font-size: 1.6em;
+
+    & span {
+        font-size: 1em;
+
+        & span {
+            font-size: 2.56em;
+        }
+    }
+}
+
+div {
+    font-size: 1.6em;
+
+    & strong {
+        font-size: 1em;
+
+        & strong {
+            font-size: 2.56em;
+        }
+    }
+}
+
+.list-unstyled {
+    list-style: none
+}
+
+.footer-social {
+ background: hsl(0, 0%, 82%);
+}
+

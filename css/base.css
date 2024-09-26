@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+
+.nav-inline-background{
+  width: 100%;
+  background: black;
+}
+a.inline-text-color{
+  color: hsl(0, 0%, 92%);
+}
+.nav-inline{
+  display: inline;
+}
+  .containerHeader{
+    width: 100%;
+    background: hsl(0, 0%, 20%);
+  }
+
+  .containerFooter{
+    width: 100%;
+    background: hsl(0, 0%, 20%);
+  }
+
+div.app{
+  background: hsl(0, 0%, 95%);
+}
+}

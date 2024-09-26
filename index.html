@@ -4,79 +4,56 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home page</title>
-
+    <link href="css/main.css" rel="stylesheet">
     <link rel="shortcut icon" href="images/favicon-16x16.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    >
+
+    <!-- После заданий дз - привести основной индекс в надлежащий вид -->
+    <!--  Точно сесть в вск за этот файл -->
+    <!-- Так же на всякий случай пересмотреть записи лекций чтобы точно не забыть ничего -->
 
 </head>
 <body>
-
-<h1>Welcome to our site - Red Mimic</h1>
-<h2>Про програмування </h2>
-<h3>Про HTML </h3>
-<h4>Про CSS </h4>
-
-<div>
-    This is regular text.<br/>
-    This is another line after line break.<br/>
-    This is another line after line break.<br/>
-</div>
-<div>
-    <p>This is a first paragraph. You can add any kind of text here.</p>
-    <p>This is a second paragraph. This is some sample text.</p>
-    <p>This is another paragraph. You can add multiple lines of text in this paragraph.</p>
-</div>
-<div class="container">
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="catalog.html">Catalog</a></li>
-            <li><a href="contact.html">Contact</a></li>
-            <!-- <li><a href="/events">Current Events</a></li> -->
-        </ul>
-    </nav>
-    <header>
-        <h1>Welcome to Red Mimic</h1>
-        <p>Це елемент заголовка 1</p>
-    </header>
-    <span>
-    <b>
-        Це жирний текст.<br/>
-    І, що ще цікавіше:<br/>
-    <i>Це курсив!</i>
-    </b>
-</span>
-    <main>
-        <h3>Це підзаголовок, укладений у теги "h3".</h3>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam optio expedita provident ratione itaque
-            numquam, dolorem, at consequuntur laborum excepturi magnam culpa impedit obcaecati enim dolor totam.
-            Assumenda, vel impedit?</p>
-        <p>Частка тексту <span style="color:#ff0000">червоного</span> кольору.</p>
-        <hr>
-        <small>
-            Зменшує розмір шрифта на одиницю по відношенню до розміру звичайного тексту.
-        </small>
-        <blockquote cite="https://www.ukrlib.com.ua/books/printit.php?tid=1052"> Но зла Юнона, суча дочка,
-            Розкудкудакалась, як квочка, — Енея не любила — страх; Давно уже вона хотіла, Його щоб душка полетіла К
-            чортам і щоб і дух не пах.
-        </blockquote>
-        <q>Розкудкудакалась, як квочка, — Енея не любила — страх</q>
-        <p>ІВАН КОТЛЯРЕВСЬКИЙ <cite>ЕНЕЇДА</cite></p>
-        <pre>
-        Но зла Юнона, суча дочка,
-        Розкудкудакалась, як квочка, —
-        Енея не любила — страх;
-        Давно уже вона хотіла,
-        Його щоб душка полетіла
-        К чортам і щоб і дух не пах.
-    </pre>
-    </main>
-    <footer>
-        <div>
-            <p>&copy; 2024 All rights reserved.</p>
+<header id="header">
+    <div class="containerHeader">
+        <h1 style="color: white">Welcome to Red Mimic</h1>
+        <nav class="nav-inline">
+            <div class="nav-inline-background">
+            <a class="inline-text-color" href="index.html">Home</a>
+            <a class="inline-text-color" href="about.html">About</a>
+            <a class="inline-text-color" href="catalog.html">Catalog</a>
+            <a class="inline-text-color" href="contact.html">Contact</a>
+            </div>
+        </nav>
+    </div>
+</header>
+<main>
+    <div class="app">
+        <div class="app-main">
+            <section>
+             <h2>Тестовое название</h2>
+             <p>- Припустімо, що розмір шрифту для body встановлено на 16 пікселів.
+                  - Слова «Outer» відображається з розміром 25,6 пікселів, а слово «inner» — 40,96 пікселів.
+                  - Всередині файла css/main.css
+                  - визначте властивсть font-size для div, вказавши значення в одиницях виміру em.
+                  - визначте властивсть font-size для span, вказавши значення в одиницях виміру em.</p>
+            </section>
         </div>
-    </footer>
-    <p>Andrey Holub</p>
-</div>
+    </div>
+</main>
+<footer id="footer">
+    <div class="containerFooter">
+        <nav>
+            <ul>
+                <li><a href="index.html">Instagram</a></li>
+                <li><a href="about.html">Telegram</a></li>
+                <li><a href="catalog.html">Youtube</a></li>
+            </ul>
+        </nav>
+        <p style="color: white">&copy; 2024 All rights reserved.</p>
+    </div>
+</footer>
 </body>
 </html>

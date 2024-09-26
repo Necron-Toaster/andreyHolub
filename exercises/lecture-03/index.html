@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home page</title>
+    <link href="css/main.css" rel="stylesheet">
+    <link rel="shortcut icon" href="images/favicon-16x16.ico" type="image/x-icon">
+    <!-- Ось тут буде відповідь на блоки питаннь до лекції
+
+        Відповідь на питання з блоку (2):
+
+        - Буде синій колір - бо саме в тегу p є його колір.
+        Але для будь якого іншого тексту з тегом p в якому немає кольору - він буде червоним.
+
+        Відповідь на питання з блоку (4):
+
+        --bgColor - буде limeGreen
+
+        Відповідь на питання з блоку (3):
+
+        В коді внизу не може бути одного і того ж id в двох місцях
+        Та і бажано щоб стиль - був у css файлі , а не в html файлі.
+          <p>Звичайний, нудний абзац. Намагайтеся не заснути.</p>
+          <p id="exciting">The most exciting paragraph on the page. One of a kind!</p>
+          <div id="exciting">The most exciting paragraph on the page. One of a kind!</div>
+	      <style>
+		      #exciting {
+			      background: #f69d3c;
+			      border: 1px solid #696969;
+			      padding: 10px;
+		          }
+          </style>
+
+        Відповідь на питання блоку (6)
+        * {
+		margin: 0;
+		padding: 0;
+	       }
+
+	     /* more styles */
+	    @import url("my-imported-styles.css");
+
+	    Так import url ... не буде працювати цсс видасть помилку (css misplaced import) в данному випадку - щоб такий код працював
+	    потрібно змінити містами імпорт урл та глобальник класс стилю
+        -->
+
+    <style>
+        p {
+            background: green;
+        }
+    </style>
+
+    <style type="text/css">
+        body {
+            background: var(--bgColor);
+        }
+
+        div {
+            --bgColor: gray;
+        }
+
+        p {
+            background: var(--bgColor);
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="catalog.html">Catalog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <header>
+        <div style="color: red">
+            <h1>Welcome to Red Mimic</h1>
+        </div>
+    </header>
+    <main>
+        <div id="exciting"><p>The most exciting paragraph on the page. One of a kind!</p> The most exciting paragraph on
+            the page. One of a kind!
+        </div>
+        <div>
+            <h3>Div 1</h3>
+            <p style="color: red; background: yellow">Paragraph 1</p>
+        </div>
+
+        <div>
+            <h3>Div 2</h3>
+            <p>Paragraph 2</p>
+        </div>
+    </main>
+    <footer>
+        <section>
+            <div>
+                <h2>About</h2>
+                <nav>
+                    <ul>
+                        <li><a class="test" href="#">Services</a></li>
+                        <li><a class="test" href="#">Portfolio</a></li>
+                        <li><a class="test" href="#">Pricing</a></li>
+                        <li><a class="test" href="#">Customers</a></li>
+                        <li><a class="test" href="#">Careers</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div>
+                <h2>Resources</h2>
+                <nav>
+                    <ul>
+                        <li><a class="test" href="#">Docs</a></li>
+                        <li><a class="test" href="#">Blog</a></li>
+                        <li><a class="test" href="#">eBooks</a></li>
+                        <li><a class="test" href="#">Webinars</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div>
+                <h2>Contact</h2>
+                <nav>
+                    <ul>
+                        <li><a class="test" href="#">Help</a></li>
+                        <li><a class="test" href="#">Sales</a></li>
+                        <li><a class="test" href="#">Advertise</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <!-- Footer legal -->
+            <section>
+                <nav>
+                    <ul>
+                        <li><a class="test" href="#">Terms &amp; Conditions</a></li>
+                        <li><a class="test" href="#">Privacy Policy</a></li>
+                    </ul>
+                </nav>
+                <div>
+                    <p>&copy; 2024 All rights reserved.</p>
+                </div>
+            </section>
+        </section>
+    </footer>
+</div>
+</body>
+</html>
