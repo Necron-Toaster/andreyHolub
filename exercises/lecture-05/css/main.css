@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+.body {
+    background: linear-gradient(to right, rgb(77, 195, 77) 5%, rgb(69, 163, 50) 17%, rgb(38, 128, 84) 40%, rgb(2, 55, 1)
+    85%, rgba(4, 39, 13, 0.95) 95% );
+}
+
+.percents {
+    background-image: linear-gradient(to bottom , rgb(121, 213, 121) 2em,  rgb(86, 218, 86) 4em, rgb(77, 195, 77) 8em, rgba(60, 200,
+    70, 0.89) 16em, rgb(6, 162, 79) 32em, #025a1ff1 64em , rgba(0, 64, 9, 0.89) 128em);
+}
+
+.negative {
+    background: linear-gradient(to left, rgb(77, 195, 77) -50%, rgb(69, 163, 50) -10%, rgb(38, 128, 84) 0%, rgb(2, 55, 1)
+    100%, rgba(4, 39, 13, 0.95) 140%);
+}
+
+.radial {
+    background: radial-gradient(ellipse at top, #c5541b, transparent),
+    radial-gradient(ellipse at top, rgba(179, 173, 55, 0), transparent),
+    radial-gradient(ellipse at bottom, rgba(179, 173, 55, 0), transparent),
+    radial-gradient(ellipse at bottom, #ba2727, transparent);
+}
