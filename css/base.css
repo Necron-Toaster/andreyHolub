@@ -27,4 +27,13 @@ a.inline-text-color{
 div.app{
   background: hsl(0, 0%, 95%);
 }
+div.containerFooter{
+  nav{
+    ul{
+      i{
+        color: white;
+      }
+    }
+  }
+}
 }
