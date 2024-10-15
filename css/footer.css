@@ -1,0 +1,17 @@
+div.containerFooter{
+    nav{
+        ul{
+            i{
+                color: white;
+            }
+        }
+    }
+}
+
+.containerFooter{
+    position: relative;
+    margin-top: auto;
+    height: 250px;
+    width: auto;
+    background: hsl(0, 0%, 20%);
+}

@@ -1,0 +1,14 @@
+div.app{
+    width: auto;
+    height: auto;
+    background: hsl(0, 0%, 95%);
+}
+main.container{
+    width: auto;
+    height: auto;
+    display: block;
+    text-align: center;
+    justify-content: center;
+}
+.grid-container{
+}
