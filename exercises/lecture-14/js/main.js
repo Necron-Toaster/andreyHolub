@@ -1,6 +1,6 @@
 'use strict';
 
-
+/* лекция 4 презент */
 var btnPrimary = document.querySelector('.btn-primary');
 btnPrimary.addEventListener('click', function () {
         const alertElement = document.querySelector('.alert');

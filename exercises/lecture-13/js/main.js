@@ -1,5 +1,6 @@
 'use strict';
 
+/* лекция 3 */
 const classes = ['first', 'second', 'third', 'fourth'];
 
 const classOne = document.querySelector('#p1');
